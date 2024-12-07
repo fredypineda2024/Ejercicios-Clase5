@@ -57,7 +57,7 @@ Además, debe permitir acceder a una tarea específica por su posición en la li
                      break;
  
                  case 4:
-                     System.out.print("Ingresa la posición de la tarea a consultar (1 a " + tareas.size() + "): ");
+                     System.out.print("Ingresa la posición de la tarea a consultar es (1 a " + tareas.size() + "): ");
                      int posicionConsultar = scanner.nextInt();
                      scanner.nextLine(); // Limpiar el buffer del teclado
                      if (posicionConsultar >= 1 && posicionConsultar <= tareas.size()) {
